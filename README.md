@@ -23,9 +23,9 @@ __Super__, it works.
 
 ## 4. Create a NetBeans Project
 New project
-![new-project](new-project.png)
+![new-project](https://github.com/WilliCommer/build-react-app-using-netbeans/new-project.png)
 Options
-![new-project2](new-project2.png)
+![new-project2](https://github.com/WilliCommer/build-react-app-using-netbeans/new-project2.png)
 
 Finished. It works fine. I can run the npm script _start_ in NetBeans, the browser opens the demo app.
 
