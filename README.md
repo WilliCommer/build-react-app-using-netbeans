@@ -12,7 +12,7 @@ My project name is _triple-ed_, so I typed in console
 ```
 create-react-app triple-ed
 ```
-It took one minute to get ready. The result was npm package folder.
+It took one minute to get ready. The result was npm a package folder.
 
 ## 3. Start
 ```
@@ -29,7 +29,7 @@ New project
 
 Options
 
-![new-project2](https://github.com/WilliCommer/build-react-app-using-netbeans/blob/master/new-project.png)
+![new-project2](https://github.com/WilliCommer/build-react-app-using-netbeans/blob/master/new-project2.png)
 
 Finished. It works fine. I can run the npm script _start_ in NetBeans, the browser opens the demo app.
 
