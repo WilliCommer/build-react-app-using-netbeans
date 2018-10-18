@@ -1,4 +1,4 @@
-# My way to build a _react_ app using NetBeans
+# My way to build a _react_ app using NetBeans 8.2
 
 
 ## 1. Install _create-react-app_
