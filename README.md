@@ -22,9 +22,13 @@ npm start
 __Super__, it works.
 
 ## 4. Create a NetBeans Project
+
 New project
+
 ![new-project](https://github.com/WilliCommer/build-react-app-using-netbeans/blob/master/new-project.png)
+
 Options
+
 ![new-project2](https://github.com/WilliCommer/build-react-app-using-netbeans/blob/master/new-project.png)
 
 Finished. It works fine. I can run the npm script _start_ in NetBeans, the browser opens the demo app.
