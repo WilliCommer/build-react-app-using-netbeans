@@ -1,48 +1,42 @@
-# md-browse
-
->
-> This module adds a cli command to view markdown files in browser without starting a server.
->
-
-Ok, there are many tools to view markdown. 
-This one just render the md file to html and open it as file in browser.
-It is the ideal tool for readng all that markdown files on disk.
+# My way to build a _react_ app using NetBeans 8.2
 
 
-## Installation
-    npm install md-browse -g
-	
-## Usage
-    mdbrowse <file>
-	
-In Windows, right click on a file and chose "_open with_". 
-Then select the __mdbrowse.cmd__ in your npm folder as application.
-You can retrieve this folder with: ```npm bin -g``` if you don't know.
-After that you can open markdown files with double click.
+## 1. Install _create-react-app_
 
-## Configuration
+I installed _create-react-app_ following the [
+description](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md)
 
-You can set some options in __config.js__ file
+## 2. Scaffolding
+My project name is _triple-ed_, so I typed in console
 
-```javascript
-module.exports = {
-  
-  style:            "github",
-  highlight_style:  "github",
-  output:           "../temp/result.html",
-  title:            "mdb: [filename]"
-  
-};
-
-/**
- * see styles in ./styles/CSS Sources.md
- * view highlight styles : https://highlightjs.org/
- * title use a place holder [filename]
- */
 ```
+create-react-app triple-ed
+```
+It took one minute to get ready. The result was npm package folder.
 
-- __style__ is a css for markdown tags. there are a small collection in _styles_ folder
-- __highlight_style__ is the style for syntax highlight
-- __output__ is the output file to show in browser
-- __title__ is the HTML title where _[filename]_ is a replacer for input file name
+## 3. Start
+```
+cd triple-ed
+npm start
+```
+__Super__, it works.
 
+## 4. Create a NetBeans Project
+
+New project
+
+![new-project](https://github.com/WilliCommer/build-react-app-using-netbeans/blob/master/new-project.png)
+
+Options
+
+![new-project2](https://github.com/WilliCommer/build-react-app-using-netbeans/blob/master/new-project.png)
+
+Finished. It works fine. I can run the npm script _start_ in NetBeans, the browser opens the demo app.
+
+## 5. Start Work
+When I change _App.js_ and save it, the changes are visible in browser. If I make an error, it will be described in browser.
+
+I am abel to write TypeScript and to use all the fine node.js modules.
+The first one I installed was [reactstrap](https://reactstrap.github.io/) to use bootsrtap classes.
+
+It feels good, to make web pages as a program. Thank's to all the people that make this possible.
